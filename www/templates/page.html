@@ -1,0 +1,16 @@
+<ion-view title="Page" hide-nav-bar="true" id="page1" class="bg-animated">
+  <ion-content padding="true" class="manual-ios-statusbar-padding">
+    <div id="page-container3" class="fixed-container">
+      <div class="spacer" style="height: 150px;"></div>
+      <h1 id="page-heading1" ng-if="animCtr>1" style="color:#000000;font-weight:300;text-align:center;" class="fade">
+        <i class="icon assertive ion-location" style="font-size:200%"></i>
+      </h1>
+      <h1 id="page-heading4" ng-if="animCtr>1" style="color:#000000;font-weight:300;text-align:center;" class="fade">Welcome</h1>
+      <h4 id="page-heading5" ng-if="animCtr>1" style="color:#000000;font-weight:300;text-align:center;" class="fade">This is demo app</h4>
+      <div id="page-container4" class="padding">
+        <button id="page-button3" ng-if="animCtr>1" ng-click="loginUser()" class="button button-balanced button-block">Login</button>
+        <button id="page-button4" ng-if="animCtr>1" ng-click="registerUser()" class="button button-positive button-block">Register</button>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>

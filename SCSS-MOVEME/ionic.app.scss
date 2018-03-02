@@ -1,0 +1,37 @@
+$ionicons-font-path: "../lib/ionic/fonts" !default;
+@import "../www/lib/ionic/scss";
+.fixed-container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	max-width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.bg-animated {
+	//background: white url(http: //clipground.com/images/blue-sky-cloud-clipart-5.jpg) repeat 0 0;
+	background: white url(https: //media.giphy.com/media/hPBR0xcXbgYnK/giphy.gif);
+	background-size: cover;
+	width: 100%;
+	margin: 0;
+	text-align: center;
+	height: 100%;
+	padding-top: 120px;
+	box-sizing: border-box;
+	-webkit-animation: slide 20s linear infinite;
+}
+
+/* The starting CSS styles for the enter animation */
+.fade.ng-enter {
+	transition: 1s linear all;
+	opacity: 0;
+}
+
+/* The finishing CSS styles for the enter animation */
+.fade.ng-enter.ng-enter-active {
+	opacity: 1;
+}
+
